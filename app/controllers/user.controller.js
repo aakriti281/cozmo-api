@@ -10,10 +10,10 @@ exports.check = () => {
     User.find().then(result => {
         if (result.length === 0) {
             const user = new User({
-                username: 'cashieadmin',
-                email: 'cashieadmin@email.com',
-                password: bcrypt.hashSync('cashieadmin', 8),
-                fullname: 'Cashie Admin',
+                username: 'cozmoadmin',
+                email: 'cozmoadmin@email.com',
+                password: bcrypt.hashSync('cozmoadmin', 8),
+                fullname: 'cozmo Admin',
                 role: 'Admin',
             })
             User(user).save()

@@ -1,7 +1,7 @@
 {
-  "name": "cashie-express",
+  "name": "cozmo-express",
   "version": "1.0.0",
-  "description": "Cashie ExpressJs NodeJs MongoDb",
+  "description": "Cozmo ExpressJs NodeJs MongoDb",
   "main": "index.js",
   "scripts": {
     "start": "node server.js",

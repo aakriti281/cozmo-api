@@ -18,7 +18,7 @@ app.use(function(req, res, next) {
 
 // Database connection
 const dbConfig = require("./app/configs/database")
-// let connection = "mongodb+srv://cashie:cashiedatabase@cashie.pxphq.mongodb.net/cashie_db?retryWrites=true&w=majority";
+// let connection = "mongodb+srv://cozmo:cozmodatabase@cozmo.pxphq.mongodb.net/cozmo_db?retryWrites=true&w=majority";
 let connection = process.env.MONGO_URI;
 
 // if (process.env.NODE_ENV !== 'production') {
